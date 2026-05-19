@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <div class="card p-4 shadow">
+
+            <h2 class="text-center mb-4">Website Feedback Form</h2>
+
+            <!-- Name -->
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+
+            <!-- Feedback -->
+            <div class="mb-3">
+                <label class="form-label">Feedback Message</label>
+                <textarea class="form-control" rows="4" placeholder="Write your feedback"></textarea>
+            </div>
+
+            <!-- Dropdown -->
+            <div class="mb-3">
+                <label class="form-label">How did you find our site?</label>
+
+                <select class="form-select">
+                    <option>Google</option>
+                    <option>Social Media</option>
+                    <option>Friend</option>
+                    <option>Advertisement</option>
+                </select>
+            </div>
+
+            <!-- Radio Buttons -->
+            <div class="mb-4">
+                <label class="form-label d-block">Satisfaction Level</label>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rating">
+                    <label class="form-check-label">1</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rating">
+                    <label class="form-check-label">2</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rating">
+                    <label class="form-check-label">3</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rating">
+                    <label class="form-check-label">4</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rating">
+                    <label class="form-check-label">5</label>
+                </div>
+
+            </div>
+
+            <!-- Submit Button -->
+            <button class="btn btn-primary w-100">
+                Submit Feedback
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
